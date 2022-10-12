@@ -83,6 +83,7 @@ public class Quiz01 {
 		}
 		System.out.println("3~7 과목 평균이 가장 높은 학생은 " + num2 + "이고 평균은 " + maxAverage);
 		
+		// 2차원 배열에서 중요한점은 반복문 안에서의 순서이다.
 		
 		
 		

@@ -1,4 +1,4 @@
-package Class;
+package ClassPart;
 
 public class StudentClass {
 	// 1. 학생 명단

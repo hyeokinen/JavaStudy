@@ -5,10 +5,11 @@ import java.util.Scanner;
 public class Quiz02 {
 
 	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
 		
 		// 1. 문자열 검색
 		// 파일이름이 저장된 문자열 배열에서 jpg 파일이 몇개인지 출력하세요.
-		// 1. jpg 파일 개수
+		// 1. 파일 개수
 		String[] files = {"cat.jpg", "dog.png", "kakao.exe", "tree.jpg", "eclipce.exe", "tmp.txt", "phone.jpg"};
 		int count = 0;
 		for (int i = 0; i < files.length; i++) {
@@ -27,7 +28,7 @@ public class Quiz02 {
 //		4. 노트북을 영어로 입력하세요 :notebook
 		
 		// 2-1
-		Scanner scan = new Scanner(System.in);
+		
 		int score = 0;
 		
 		System.out.print("승리을 영어로 입력하세요 :");
@@ -117,7 +118,7 @@ public class Quiz02 {
 //			}
 //		}
 //		System.out.println(resultCount);
-		
+		scan.close();
 	}
 
 }

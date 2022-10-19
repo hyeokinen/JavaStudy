@@ -52,7 +52,7 @@ public class Quiz01 {
 		}System.out.println(count + "개 ");
 		
 		
-		
+		scan.close();
 		
 		
 	}

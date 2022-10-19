@@ -16,6 +16,8 @@ public class CircleTest {
 		int number = scan.nextInt();
 		cir1.setCount(number);
 		System.out.println("count area: " + cir1.num());
+		
+		scan.close();
 	}
 
 }

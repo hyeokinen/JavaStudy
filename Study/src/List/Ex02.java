@@ -1,12 +1,10 @@
 package List;
 
-package list_ex;
-
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class Ex01 {
+public class Ex02 {
 
 	public static void main(String[] args) {
 		List<String> strList = new ArrayList<>();

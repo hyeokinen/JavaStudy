@@ -1,4 +1,4 @@
-package Inheritance;
+package Study.src.Inheritance;
 
 public class Student extends Person {
 	private String major;

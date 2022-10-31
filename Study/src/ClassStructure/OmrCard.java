@@ -4,7 +4,7 @@ public class OmrCard {
 	// 속성: 필드
 	private String name;
 	private int studentId;
-	private int[] answer = new int[5]; // 학생이 입력한 정답
+	private final int[] answer = new int[5]; // 학생이 입력한 정답
 	
 	// 행위: 메소드
 	public void setStudentId(int studentId) {

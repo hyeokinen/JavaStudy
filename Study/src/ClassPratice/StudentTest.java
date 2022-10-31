@@ -18,7 +18,7 @@ public class StudentTest {
 		stu.setStudentID(20122165);
 		
 		System.out.println(stu.getStudentName());
-		System.out.println(stu.toString());
+		System.out.println(stu);
 		
 	}
 

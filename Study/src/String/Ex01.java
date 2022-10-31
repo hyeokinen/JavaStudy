@@ -1,12 +1,12 @@
-package String;
+package Study.src.String;
 
 public class Ex01 {
 
 	public static void main(String[] args) {
 				// String 변수에 값 저장하기
 				String a = "안녕하세요";
-				String b = new String("안녕하세요"); // 객체
-				String c = new String("안녕하세요");
+				String b = "안녕하세요"; // 객체
+				String c = "안녕하세요";
 				String d = "안녕하세요"; // heap 영역에 constant pool에 저장되고 재활용이 된다.(new로 생성 X)
 				
 				System.out.println(a);

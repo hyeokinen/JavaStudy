@@ -26,8 +26,8 @@ public class Ex02 {
 				public static void printHelloWorld() {
 					System.out.println("Hello world");
 					System.out.println("Hello world");
-					return; // 생략 가능 . return을 만나면 메소드가 종료된다.
-				
-	}
+                    // 생략 가능 . return을 만나면 메소드가 종료된다.
+
+                }
 
 }

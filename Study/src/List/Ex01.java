@@ -27,7 +27,7 @@ public class Ex01 {
         boolean isSuccess = list1.add(8);
         System.out.println(isSuccess);
         System.out.println("list1:" + list1);
-        System.out.println("list1 toString(): " + list1.toString());
+        System.out.println("list1 toString(): " + list1);
 
 
 

@@ -26,11 +26,9 @@ public class AnimalTest {
 		 * - 자식 클래스 여러개이기 때문에 명확하게 캐스팅 문법을 명시해주어야 한다.
 		 * - 어떤 자식 클래스인지 instanceof 명령어를 사용해서 검사해야 한다.
 		 */
-		if (animal instanceof Dog) {
-			Dog dog = (Dog) animal;
+		if (animal instanceof Dog dog) {
 			dog.lash();
-		} else if (animal instanceof Cat) {
-			Cat cat = (Cat) animal;
+		} else if (animal instanceof Cat cat) {
 			cat.grooming();
 		}
 	}

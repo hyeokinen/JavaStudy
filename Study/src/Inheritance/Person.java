@@ -1,4 +1,4 @@
-package Inheritance;
+package Study.src.Inheritance;
 
 public class Person {
 	protected String name;

@@ -17,9 +17,9 @@ public class PersonTest {
 		
 		
 		
-		System.out.println(per.introduce("hyeok", "male"));
-		per.walk();
-		System.out.println(per.sayHi());
+		System.out.println(Person.introduce("hyeok", "male"));
+		Person.walk();
+		System.out.println(Person.sayHi());
 	}
 
 }

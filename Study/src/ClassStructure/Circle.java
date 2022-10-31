@@ -3,7 +3,7 @@ package ClassStructure;
 public class Circle {
 	
 	private int radius;
-	private double pi = 3.14;
+	private final double pi = 3.14;
 	private int count;
 	
 	public double area() {

@@ -1,0 +1,24 @@
+package List;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class test {
+
+	public static void main(String[] args) {
+		List<Integer> newList = new ArrayList<Integer>();
+		int number = 13;
+        int count = 0;
+        // 정수의 각 자리수를 newList에 저장
+        while (number > 0) {
+            newList.add(number % 10);
+            number /= 10;
+        }
+        // 각 자리수를 돌며 3,6,9에 해당하는 수가 있으면 count 증가
+        for (int i : newList) {
+            if(i % 3 == 0 && i != 0) count++;
+        }
+        return count;
+    }
+
+}

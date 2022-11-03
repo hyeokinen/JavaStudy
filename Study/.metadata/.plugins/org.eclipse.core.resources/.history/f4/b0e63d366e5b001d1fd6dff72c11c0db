@@ -1,0 +1,26 @@
+package Map;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		
+		
+		// 주민번호 - 이름 이라고 생각하면 편하다.
+		// key - value
+		
+		Map<String, Integer> map1 = new HashMap<>();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

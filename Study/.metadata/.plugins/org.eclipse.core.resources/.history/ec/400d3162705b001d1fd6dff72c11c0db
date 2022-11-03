@@ -1,0 +1,28 @@
+package Map;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Quiz01 {
+
+	public static void main(String[] args) {
+		
+		Map<String, Integer> map1 = new HashMap<>();
+		map1.put("Korean", 90);
+		map1.put("Math", 85);
+		map1.put("English", 90);
+		map1.put("Society", 80);
+		map1.put("Scinect", 100);
+		
+		System.out.println(map1);
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

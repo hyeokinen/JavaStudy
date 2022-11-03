@@ -1,0 +1,33 @@
+package Map;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		
+		
+		// 주민번호 - 이름 이라고 생각하면 편하다.
+		// key - value
+		
+		Map<String, Integer> map1 = new HashMap<>();
+		map1.put("a", 1);
+		map1.put("b", 2);
+		map1.put("c", 3);
+		map1.put("d", 4);
+		System.out.println(map1);
+		
+		System.out.println(map1.get("a"));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

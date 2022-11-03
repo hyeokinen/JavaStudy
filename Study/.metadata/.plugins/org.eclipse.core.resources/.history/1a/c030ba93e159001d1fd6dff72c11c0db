@@ -1,0 +1,30 @@
+package List;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class test {
+
+	public static void main(String[] args) {
+		List<Integer> num = new ArrayList<>();	
+		num.add(3);
+		num.add(8);
+		num.add(9);
+		num.add(4);
+		num.add(2);
+		num.add(1);
+		num.add(7);
+		num.add(5);
+		
+		System.out.println(num);
+		
+		num.set(3, 6);
+		System.out.println(num);
+		
+		num.remove(8);
+		num.remove(7);
+		
+		System.out.println(num);
+    }
+
+}
